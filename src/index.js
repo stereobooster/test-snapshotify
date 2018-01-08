@@ -1,8 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import { hydrate, render } from 'react-dom';
+import loadScripts from 'snapshotify';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const rootElement = document.getElementById('root');
+if (rootElement.hasChildNodes()) {
+  loadScripts().then(() => hydrate(<App />, rootElement));
+} else {
+  render(<App />, rootElement);
+}
+
 registerServiceWorker();
