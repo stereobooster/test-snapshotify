@@ -12,6 +12,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "yarn run build && firebase deploy"
+    "deploy": "yarn run build && firebase deploy",
+    "postbuild": "react-snap"
+  },
+  "devDependencies": {
+    "react-snap": "^1.9.0"
+  },
+  "reactSnap": {
+    "inlineCss": true
   }
 }
