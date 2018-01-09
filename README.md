@@ -41,3 +41,20 @@ yarn deploy
 
 ![react-snap-filmstrip.png](images/react-snap-filmstrip.png)
 
+## react-snap 2
+
+The same as above plus `Link` header.
+
+```
+git checkout react-snap-2
+yarn deploy
+```
+
+| Load Time | First Byte | Start Render | Speed Index | First Interactive (beta) | Time   | Requests | Bytes In | Time   | Requests | Bytes In | Cost  |
+|-----------|------------|--------------|-------------|--------------------------|--------|----------|----------|--------|----------|----------|-------|
+| 1.932s    | 1.339s     | 1.596s       | 1626        | 2.162s                   | 1.932s | 3        | 39 KB    | 3.053s | 8        | 49 KB    | $---- |
+
+
+![react-snap-2-waterfall.png](images/react-snap-2-waterfall.png)
+
+![react-snap-2-filmstrip.png](images/react-snap-2-filmstrip.png)
