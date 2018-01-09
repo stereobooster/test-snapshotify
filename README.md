@@ -17,7 +17,7 @@ yarn deploy
 
 | Load Time | First Byte | Start Render | Speed Index | First Interactive (beta) | Time   | Requests | Bytes In | Time   | Requests | Bytes In | Cost  |
 |-----------|------------|--------------|-------------|--------------------------|--------|----------|----------|--------|----------|----------|-------|
-| 2.201s    | 1.425s     | 1.684s       | 1719        | 2.607s                   | 2.201s | 4        | 52 KB    | 3.297s | 6        | 57 KB    | $---- |
+| 1.708s    | 1.448s     | 1.698s       | 1726        | 2.714s                   | 1.708s | 4        | 44 KB    | 2.884s | 6        | 52 KB    | $---- |
 
 ![snapshotify-waterfall.png](images/snapshotify-waterfall.png)
 
